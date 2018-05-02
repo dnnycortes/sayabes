@@ -29,8 +29,8 @@
 	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	
 	<!-- Iconos para el navegador-->
-	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico">
-	<link rel="bookmark" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico">
+	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/imgs/favicon.ico">
+	<link rel="bookmark" href="<?php echo get_template_directory_uri(); ?>/imgs/favicon.ico">
 	
 	<!-- Iconos para ipad e iphone -->
 	<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/images/icons/apple-touch-icon-57x57-precomposed.png">
@@ -63,17 +63,22 @@
 		<h1>
 			<a href="<?php bloginfo('url'); ?>"><?php bloginfo( 'name' ); ?></a>
 		</h1>
-		<a href="javascript:void(0);" class="menu-toggle"> Menu </a>
-		<div class="social-icons">
-			<a href="https://www.facebook.com/pharmaclims/" target="_blank" class="social facebook">facebook</a>
-			<a href="https://www.linkedin.com/company/pharma-clim-services-s.a-de-c.v/" target="_blank" class="social instagram">instagram</a>
+		<div class="contact-info">
+			<div class="social-media">
+				<a href="#" class="social facebook">Facebook</a>
+				<a href="#" class="social instagram">Instagram</a>
+			</div>
+			<div class="call-us">
+				<p>Llámanos <span>(55)81142040</span></p>
+			</div>
+			<a href="#" class="btn-descarga-pdf">Descarga el PDF</a>
 		</div>
 	</div>
 </header>
 
-<div class="main-menu">
+<!--<div class="main-menu">
 	<a href="javascript:void(0);" class="btn-close">Cerrar</a>
 	<br class="clear">
-	<?php wp_nav_menu(array('theme_location' => 'primary'));?>
-</div><!-- .main-menu -->
+	<?//php wp_nav_menu(array('theme_location' => 'primary'));?>
+</div> -->
 

@@ -18,5 +18,11 @@ body{
 	font-family: 			$main-font;
 	font-weight:			lighter;
 	font-size:				15px;
-	color:					$sec-color;
+	color:					$text-color;
+}
+.main-width {
+	max-width: 780px;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
 }

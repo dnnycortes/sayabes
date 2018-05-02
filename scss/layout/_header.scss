@@ -1,1 +1,55 @@
 // Header
+
+.main-header {
+    position: absolute;
+    width: 100%;
+    padding: $padding 0;
+    top: 0;
+
+    h1 {
+        width: 218px;
+        height: 130px;
+        background: url('imgs/sayabes-logo.png');
+
+        a {
+            display: inline-block;
+            text-indent: -99999px;
+        }
+    }
+
+    .main-width {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact-info {
+        margin-left: auto;
+
+        .social-media {
+            display: flex;
+            margin-bottom: 10px;
+
+            .social {
+                margin-left: 10px;
+
+                &.facebook {
+                    margin-left: auto;
+                }
+            }
+        }
+
+        .call-us {
+            margin-bottom: $margin;
+            
+            p {
+                text-transform: uppercase;
+            }
+            span {
+                background: url('imgs/icone-phone.png') no-repeat;
+                padding-left: $padding;
+                margin-left: 8px;
+                display: inline-block;
+            }
+        }
+    }
+}

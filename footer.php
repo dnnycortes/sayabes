@@ -6,15 +6,20 @@
 ?>
 
 <footer class="main-footer">
-	<div class="main-width">
-		<div class="quote">
-			<p>"Aquello que para la oruga es el fin del mundo, <br> para el resto del mundo se llama mariposa</p>
-			<span>Lao Tse</span>
+	<div class="quote-sec">
+		<div class="main-width">
+			<div class="quote">
+				<p>-La vida es como montar en bicicleta;</p>
+				<p>para mantener el equilibrio debes seguir moviéndote.-</p>
+				<span>Albert Einstein.</span>
+			</div>
 		</div>
 	</div>
-</footer>
-<footer class="sec-footer">
-	<div class="main-width">
+	<div class="footer">
+		<div class="main-width">
+			<p>Aviso de privacidad</p>
+			<p>Sáyabes Derechos reservados 2017</p>
+		</div>
 	</div>
 </footer>
 
