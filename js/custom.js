@@ -19,7 +19,14 @@ $(document).ready(function(){
 		}
 	});
 
-	
-	$('.owl-carousel').owlCarousel();
+
+	$('.owl-carousel').owlCarousel({
+		items: 1,
+		loop: true,
+		mouseDrag: false,
+		nav: true,
+		dots: false,
+		navText : ["<a class='btn-left'>left</a>","<a class='btn-right'>right</a>"]
+	});
 
 });

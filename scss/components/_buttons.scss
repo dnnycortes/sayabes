@@ -32,3 +32,19 @@
         color: $text-color;
     }
 }
+
+.btn-left {
+    width: 23px;
+    height: 38px;
+    background: url('imgs/icon-left.png');
+    display: inline-block;
+    text-indent: -99999px;
+}
+
+.btn-right {
+    width: 23px;
+    height: 38px;
+    background: url('imgs/icon-right.png');
+    display: inline-block;
+    text-indent: -99999px;
+}

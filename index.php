@@ -28,11 +28,13 @@ get_header(); ?>
 <section class="section-departamentos">
 	<div class="main-width">
 		<h2>Departamentos</h2>
-		<div class="owl-carousel owl-theme">
-			<div>1</div>
-			<div>2</div>
-			<div>3</div>
-			<div>4</div>
+		<div class="owl-carousel departamentos">
+			<div class="item">
+				<img src="<?php echo get_template_directory_uri(); ?>/imgs/departamento-tipo-A.png" alt="">
+			</div>
+			<div class="item">
+				2
+			</div>
 		</div>
 	</div>
 </section>
