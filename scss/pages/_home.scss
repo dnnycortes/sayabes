@@ -3,7 +3,7 @@
     min-height: 2000px;
     width: 100%;
     background: url('imgs/bg-home.jpg') no-repeat;
-    background-size: 100%;
+    background-size: 100% 106%;
     position: relative;
 
     .text {
@@ -40,11 +40,96 @@
 }
 
 .section-departamentos{
-    background: #173c54;
-    padding: $padding 0;
+    background: $sec-color;
+    padding: $padding * 3 0;
 
     h2 {
         text-transform: uppercase;
         font-size: 24px;
+    }
+}
+
+.section-amenidades {
+    background: #00577f;
+    background: -moz-linear-gradient(top, #00577f 0%, #4ec4d8 100%);
+    background: -webkit-linear-gradient(top, #00577f 0%,#4ec4d8 100%);
+    background: linear-gradient(to bottom, #00577f 0%,#4ec4d8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00577f', endColorstr='#4ec4d8',GradientType=0 );
+    padding: $padding * 3 0;
+
+    h2 {
+        text-transform: uppercase;
+        font-size: 24px;
+        margin-bottom: $margin * 3;
+    }
+}
+
+.section-galeria {
+    background: #00577f;
+    background: -moz-linear-gradient(top, #00577f 0%, #4ec4d8 100%);
+    background: -webkit-linear-gradient(top, #00577f 0%,#4ec4d8 100%);
+    background: linear-gradient(to bottom, #00577f 0%,#4ec4d8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00577f', endColorstr='#4ec4d8',GradientType=0 );
+    padding: $padding * 3 0;
+
+    h2 {
+        text-transform: uppercase;
+        font-size: 24px;
+        margin-bottom: $margin * 3;
+    }
+
+    .gallery-item-wrapper {
+        margin-bottom: $margin * 2;
+    }
+}
+
+.section-ubicacion {
+    background: $sec-color;
+    padding: $padding * 3 0 0 0;
+
+    h2 {
+        text-transform: uppercase;
+        font-size: 24px;
+        margin-bottom: $margin * 2;
+    }
+
+    .map {
+        iframe {
+            width: 100%;
+            min-height: 435px;
+        }
+    }
+}
+
+.section-contacto {
+    background: $sec-color;
+    padding: $padding * 3;
+
+    h2 {
+        text-transform: uppercase;
+        font-size: 24px;
+        margin-bottom: $margin;
+    }
+
+    form {
+        text-align: center;
+
+        input[type="text"], input[type="email"] {
+            width: 97%;
+            line-height: 25px;
+            padding: 0 1%;
+        }
+
+        textarea {
+            width: 97.5%;
+            padding: 5px 1%;
+            resize: none;
+        }
+
+        input[type="submit"] {
+            margin-top: 20px;
+            line-height: 31px;
+            padding: 0 20px;
+        }
     }
 }

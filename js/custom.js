@@ -19,14 +19,30 @@ $(document).ready(function(){
 		}
 	});
 
-
-	$('.owl-carousel').owlCarousel({
+	/**
+	 * Module: Home
+	 * Description: Owl carousel config for departamentos section
+	 */
+	$('.owl-carousel.departamentos').owlCarousel({
 		items: 1,
 		loop: true,
 		mouseDrag: false,
 		nav: true,
 		dots: false,
 		navText : ["<a class='btn-left'>left</a>","<a class='btn-right'>right</a>"]
+	});
+
+	/**
+	 * Module: Home
+	 * Description: Owl carousel config for amenidades section
+	 */
+	$('.owl-carousel.amenidades').owlCarousel({
+		nav: true,
+		navText : ["<a class='btn-left'>left</a>","<a class='btn-right'>right</a>"],
+		items: 3,
+		loop: true,
+		mouseDrag: false,
+		dots: true,
 	});
 
 });

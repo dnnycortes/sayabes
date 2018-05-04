@@ -9,6 +9,47 @@
                 margin-top: 25px;
                 width: 88%;
             }
+
+            .features {
+                 h3 {
+                     font-size: 20px;
+                     margin-bottom: 10px;
+                 }
+            }
+        }
+    }
+
+    &.amenidades {
+
+        .item {
+            width: 65%;
+            margin: 0 auto;
+            text-align: center;
+
+            img {
+                margin-bottom: $margin;
+            }
+
+            p {
+                font-size: 16px;
+                color: white;
+            } 
+        }
+    }
+
+    .owl-nav {
+        display: block !important;
+
+        .owl-prev {
+            position: absolute;
+            top: 45%;
+            left: 0;
+        }
+
+        .owl-next {
+            position: absolute;
+            top: 45%;
+            right: 0;
         }
     }
 }
