@@ -1,0 +1,35 @@
+.main-nav {
+    background: $sec-color;
+    height: 100%;
+    min-height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    min-width: 270px;
+    overflow: hidden;
+    padding: $padding;
+    margin-left: -300px;
+
+    .btn-close {
+        float: right;
+    }
+
+    .menu {
+        padding-top: 50px;
+
+        ul {
+
+            li {
+                margin-bottom: 30px;
+
+                a {
+                    color: white;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}

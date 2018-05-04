@@ -48,3 +48,27 @@
     display: inline-block;
     text-indent: -99999px;
 }
+
+.btn-menu {
+    background: url('imgs/icon-menu.png');
+    width: 54px;
+    height: 45px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+
+.btn-close {
+    background: url('imgs/icon-close.png') no-repeat;
+    background-position: 100%;
+    color: white;
+    text-transform: uppercase;
+    height: 32px;
+    display: inline-block;
+    padding-right: 40px;
+    line-height: 26px;
+    text-decoration: none;
+
+    &:hover {
+        color: white;
+    }
+}

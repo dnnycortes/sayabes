@@ -20,6 +20,17 @@ $(document).ready(function(){
 	});
 
 	/**
+	 * 
+	 */
+	$('.main-header .btn-menu, .main-nav .btn-close').click(function(){
+		if($('.main-nav').css("margin-left") == "0px"){
+			$('.main-nav').animate({"margin-left": '-=300'});
+		} else {
+			$('.main-nav').animate({"margin-left": '+=300'});
+		}
+	 });
+
+	/**
 	 * Module: Home
 	 * Description: Owl carousel config for departamentos section
 	 */

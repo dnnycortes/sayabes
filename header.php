@@ -73,12 +73,12 @@
 			</div>
 			<a href="#" class="btn-descarga-pdf">Descarga el PDF</a>
 		</div>
+
+		<a href="javascript:void(0);" class="btn-menu">Menu</a>
 	</div>
 </header>
 
-<!--<div class="main-menu">
+<nav class="main-nav">
 	<a href="javascript:void(0);" class="btn-close">Cerrar</a>
-	<br class="clear">
-	<?//php wp_nav_menu(array('theme_location' => 'primary'));?>
-</div> -->
-
+	<?php wp_nav_menu(array('theme_location' => 'primary'));?>
+</nav>
