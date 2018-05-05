@@ -5,7 +5,19 @@
  */
 get_header(); ?>
 <!-- Escupe la ruta hacia la carpeta raiz del templete <?php echo get_template_directory_uri(); ?> -->
-<div class="intro">
+
+<nav class="dots-nav">
+	<ul>
+		<li><a href="#intro" class="selected">Intro</a></li>
+		<li><a href="#departamentos">Departamentos</a></li>
+		<li><a href="#amenidades">Amenidades</a></li>
+		<li><a href="#galeria">Galería</a></li>
+		<li><a href="#ubicacion">Ubicación</a></li>
+		<li><a href="#contacto">Contacto</a></li>
+	</ul>
+</nav>
+
+<div class="intro" id="intro">
 	<div class="main-width">
 		<div class="text one">
 			<h3>Bienvenido</h3>
@@ -25,7 +37,7 @@ get_header(); ?>
 	</div>
 </div>
 
-<section class="section-departamentos">
+<section class="section-departamentos" id="departamentos">
 	<div class="main-width">
 		<h2>Departamentos</h2>
 		<div class="owl-carousel departamentos">
@@ -43,7 +55,7 @@ get_header(); ?>
 	</div>
 </section>
 
-<section class="section-amenidades">
+<section class="section-amenidades" id="amenidades">
 	<div class="main-width">
 		<h2>Amenidades</h2>
 		<div class="owl-carousel amenidades">
@@ -63,7 +75,7 @@ get_header(); ?>
 	</div>
 </section>
 
-<section class="section-galeria">
+<section class="section-galeria" id="galeria">
 	<div class="main-width">
 		<h2>Galería</h2>
 		<!--EMPIEZA EL LOOP-->
@@ -76,7 +88,7 @@ get_header(); ?>
 	</div>
 </section>
 
-<section class="section-ubicacion">
+<section class="section-ubicacion" id="ubicacion">
 	<div class="main-width">
 		<h2>Ubicación</h2>
 	</div>
@@ -85,7 +97,7 @@ get_header(); ?>
 	</div>
 </section>
 
-<section class="section-contacto">
+<section class="section-contacto" id="contacto">
 	<div class="main-width">
 		<h2>Contacto</h2>
 		<p>Envía un mensaje y pronto nos pondremos en contacto:</p>

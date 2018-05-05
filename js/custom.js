@@ -5,22 +5,23 @@ $(document).ready(function(){
 	$('a[href*=\\#]:not([href=\\#])').click(function() {
 		$('a').removeClass('selected');
 		$(this).addClass('selected');
-    	if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-       		|| location.hostname == this.hostname) {
-
-		var target = $(this.hash);
-		target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      	if (target.length) {
-       		$('html,body').animate({
-       		scrollTop: 200
-       		}, 1500);
-       		return false;
-    		}
+		  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+			  || location.hostname == this.hostname) {
+	
+			var target = $(this.hash);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			if (target.length) {
+			  $('html,body').animate({
+			  scrollTop: target.offset().top
+			  }, 1000);
+			  return false;
+			}
 		}
 	});
 
 	/**
-	 * 
+	 * Module: General
+	 * Description: Adding effect to open and close main navigation
 	 */
 	$('.main-header .btn-menu, .main-nav .btn-close').click(function(){
 		if($('.main-nav').css("margin-left") == "0px"){
@@ -28,8 +29,8 @@ $(document).ready(function(){
 		} else {
 			$('.main-nav').animate({"margin-left": '+=300'});
 		}
-	 });
-
+	});
+	
 	/**
 	 * Module: Home
 	 * Description: Owl carousel config for departamentos section

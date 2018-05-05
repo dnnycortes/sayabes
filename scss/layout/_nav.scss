@@ -33,3 +33,37 @@
         }
     }
 }
+
+// Dots nav
+.dots-nav {
+    position: fixed;
+    z-index: 1;
+    top: 45%;
+    left: 13%;
+
+    ul {
+
+        li {
+            width: 11px;
+            height: 11px;
+            margin-bottom: 7px;
+
+            a{
+                color: rgb(17, 13, 13);
+                display: inline-block;
+                width: 100%;
+                text-indent: -99999px;
+                background: #a7a9ac;
+                width: 11px;
+                height: 11px;
+                border-radius: 2px;
+
+                &.selected {
+                    background: white;
+                }
+            }
+
+
+        }
+    }
+}
