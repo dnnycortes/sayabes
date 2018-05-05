@@ -44,12 +44,37 @@
             position: absolute;
             top: 45%;
             left: 0;
+            opacity: 1;
         }
 
         .owl-next {
             position: absolute;
             top: 45%;
             right: 0;
+            opacity: 1;
         }
     }
+}
+
+@media screen and (max-width: 600px) { 
+    .owl-carousel {
+
+        &.departamentos {
+
+            .item {
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
+
+        &.amenidades {
+            .item {
+                width: 54%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+
 }

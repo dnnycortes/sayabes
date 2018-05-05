@@ -53,3 +53,56 @@
         }
     }
 }
+
+@media screen and (max-width: 600px) { 
+    .main-footer {
+
+        .quote-sec {
+
+            .main-width {
+
+                background-position: 10px 50%;
+
+                p {
+                    font-size: 18px;
+                }
+
+                .quote {
+                    width: 60%;
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) { 
+    .main-footer {
+
+        .quote-sec {
+
+            .main-width {
+
+                background-size: 31%;
+
+                p, span {
+                    font-size: 16px;
+                }
+
+                .quote {
+                    margin-top: 40px;
+                }
+            }
+        }
+
+        .footer {
+            min-height: 110px;
+
+            p {
+                font-size: 16px;
+                line-height: 35px;
+            }
+        }
+    }
+
+}

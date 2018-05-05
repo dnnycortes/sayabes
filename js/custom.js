@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	/**
-	 * Navegación por medio de id's con animación
+	 * Module: General
+	 * Description: Navigation through ID's with smooth scrolling effect
 	 */
 	$('a[href*=\\#]:not([href=\\#])').click(function() {
 		$('a').removeClass('selected');
@@ -8,7 +9,7 @@ $(document).ready(function(){
 		  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
 			  || location.hostname == this.hostname) {
 	
-			var target = $(this.hash);
+			let target = $(this.hash);
 			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 			if (target.length) {
 			  $('html,body').animate({
@@ -55,8 +56,20 @@ $(document).ready(function(){
 		loop: true,
 		mouseDrag: false,
 		dots: true,
+		responsive: {
+			320: {
+				items: 2
+			},
+			600: {
+				items: 3
+			}
+		}
 	});
 
+	/**
+	 * Module: Home
+	 * Description: Inicializing parallax effects
+	 */
 	$("[data-paroller-factor]").paroller();
 
 });
