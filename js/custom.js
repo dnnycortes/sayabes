@@ -57,4 +57,6 @@ $(document).ready(function(){
 		dots: true,
 	});
 
+	$("[data-paroller-factor]").paroller();
+
 });

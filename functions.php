@@ -66,6 +66,11 @@ function my_scripts_method() {
 		array( 'jquery' )
 	);
 	wp_enqueue_script(
+		'paroller',
+		get_stylesheet_directory_uri() . '/js/jquery.paroller.min.js',
+		array( 'jquery' )
+	);
+	wp_enqueue_script(
 		'owl-carousel-js',
 		get_stylesheet_directory_uri() . '/js/owl.carousel.min.js',
 		array( 'jquery' )

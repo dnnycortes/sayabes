@@ -19,18 +19,18 @@ get_header(); ?>
 
 <div class="intro" id="intro">
 	<div class="main-width">
-		<div class="text one">
+		<div class="text one" data-paroller-factor="0.9" data-paroller-type="foreground">
 			<h3>Bienvenido</h3>
 			<p>La casa que covertirás en ese lugar especial dónde se crean los mejores recuerdos.</p>
 			<p>Espacio y ambiente en perfecto equilibrio esperan llenarse con tus vivencias y sueños, <br> Sáyabes es el hogar que complementa tu estilo de vida.</p>
 		</div>
 
-		<div class="text two">
+		<div class="text two" data-paroller-factor="0.9" data-paroller-type="foreground">
 			<h3>Rodeado de bosque y jardines</h3>
 			<p>Balance entre arquitectura y áreas verdes. Vivir rodeado de naturaleza y estar a un paso <br> de las comodidades de la ciudad es cálidad de vida.</p>
 		</div>
 
-		<div class="text three">
+		<div class="text three" data-paroller-factor="0.9" data-paroller-type="foreground">
 			<h3>Las amenidades que siempre soñaste</h3>
 			<p>Con todas las amenidades y aventuras que garantizan emoción y felicidad cada día. <br> Ya no querrás salir de casa.</p>
 		</div>
