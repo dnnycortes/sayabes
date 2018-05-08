@@ -1,0 +1,22 @@
+.amenidades {
+
+    .main-header {
+        background: $sec-color;
+        position: inherit;
+
+        .btn-menu {
+            background: url('imgs/icon-menu-dark.png');
+        }
+    }
+
+    .section-adventure-map {
+        background: $sec-color;
+        padding: $padding * 3;
+
+        h2 {
+            text-transform: uppercase;
+            font-size: 24px;
+            margin-bottom: $margin * 3;
+        }
+    }
+}

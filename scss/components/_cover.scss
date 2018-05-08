@@ -11,37 +11,48 @@
         position: relative;
     }
 
+    h2 {
+        position: absolute;
+        z-index: 1;
+        color: white;
+        font-size: 25px;
+        text-transform: uppercase;
+        right: 10px;
+        top: -40px;
+    }
+
+    .text {
+        position: absolute; 
+
+        h3, p {
+            background: rgba(23, 60, 84, 0.7);
+            color: white;
+            padding: 10px $padding;
+        }
+
+        h3 {
+            font-size: 25px;
+            margin-bottom: $margin;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: $margin;
+        }
+    }
+
     &.departamentos {
         background-image: url('imgs/bg-departamentos.jpg');
 
-        h2 {
-            position: absolute;
-            z-index: 1;
-            color: white;
-            font-size: 25px;
-            text-transform: uppercase;
-            right: 10px;
-            top: -40px;
-        }
-
         .text {
-            position: absolute; 
             top: 400px;
+        }
+    }
 
-            h3, p {
-                background: rgba(23, 60, 84, 0.7);
-                color: white;
-                padding: 10px $padding;
-            }
-
-            h3 {
-                font-size: 25px;
-                margin-bottom: $margin;
-            }
-
-            p {
-                font-size: 16px;
-            }
+    &.amenidades {
+        background-image: url('imgs/bg-amenidades.jpg');
+        .text {
+            top: 400px;
         }
     }
 }
