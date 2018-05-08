@@ -55,4 +55,26 @@
             top: 400px;
         }
     }
+
+    &.ubicacion {
+        background-image: url('imgs/bg-ubicacion.jpg');
+        background-size: cover;
+        min-height: 1000px;
+
+        h2 {
+            top: 120px;
+        }
+
+        .text {
+            top: 500px;
+        }
+    }
+
+    &.galeria {
+        background-image: url('imgs/bg-galeria.jpg');
+
+        h2 {
+            top: 120px;
+        }
+    }
 }
