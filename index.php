@@ -6,6 +6,32 @@
 get_header(); ?>
 <!-- Escupe la ruta hacia la carpeta raiz del templete <?php echo get_template_directory_uri(); ?> -->
 
+
+<header class="main-header">
+	<div class="main-width">
+		<h1>
+			<a href="<?php bloginfo('url'); ?>"><?php bloginfo( 'name' ); ?></a>
+		</h1>
+		<div class="contact-info">
+			<div class="social-media">
+				<a href="#" class="social facebook">Facebook</a>
+				<a href="#" class="social instagram">Instagram</a>
+			</div>
+			<div class="call-us">
+				<p>Llámanos <span>(55)81142040</span></p>
+			</div>
+			<a href="#" class="btn-descarga-pdf">Descarga el PDF</a>
+		</div>
+
+		<a href="javascript:void(0);" class="btn-menu">Menu</a>
+	</div>
+</header>
+
+<nav class="main-nav">
+	<a href="javascript:void(0);" class="btn-close">Cerrar</a>
+	<?php wp_nav_menu(array('theme_location' => 'primary'));?>
+</nav>
+
 <nav class="dots-nav">
 	<ul>
 		<li><a href="#intro" class="selected">Intro</a></li>

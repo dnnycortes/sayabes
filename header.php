@@ -57,28 +57,3 @@
 	<!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-
-<header class="main-header">
-	<div class="main-width">
-		<h1>
-			<a href="<?php bloginfo('url'); ?>"><?php bloginfo( 'name' ); ?></a>
-		</h1>
-		<div class="contact-info">
-			<div class="social-media">
-				<a href="#" class="social facebook">Facebook</a>
-				<a href="#" class="social instagram">Instagram</a>
-			</div>
-			<div class="call-us">
-				<p>Llámanos <span>(55)81142040</span></p>
-			</div>
-			<a href="#" class="btn-descarga-pdf">Descarga el PDF</a>
-		</div>
-
-		<a href="javascript:void(0);" class="btn-menu">Menu</a>
-	</div>
-</header>
-
-<nav class="main-nav">
-	<a href="javascript:void(0);" class="btn-close">Cerrar</a>
-	<?php wp_nav_menu(array('theme_location' => 'primary'));?>
-</nav>
