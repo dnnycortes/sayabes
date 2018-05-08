@@ -32,8 +32,10 @@ get_header(); ?>
         <?php wp_nav_menu(array('theme_location' => 'primary'));?>
     </nav>
 
+
     <div class="cover departamentos">
         <div class="main-width">
+            <h2>Departamentos</h2>
             <div class="text" data-paroller-factor="0.8" data-paroller-type="foreground">
                 <h3>El hogar que quieres</h3>
                 <p>Espacios bien diseñados, amplios, cómodos y con mucha de luz. Arquitectura con vista. <br>
