@@ -101,6 +101,9 @@
         &.departamentos {
             background-size: cover;
         }
+        &.contacto {
+            min-height: 1200px;
+        }
     }
 }
 
@@ -113,6 +116,9 @@
             background-size: cover;
         }
         &.galeria {
+            background-size: cover;
+        }
+        &.contacto {
             background-size: cover;
         }
     }
@@ -129,6 +135,14 @@
         }
         &.galeria {
             min-height: 700px;
+        }
+        &.contacto {
+            min-height: 1000px;
+
+            .section-contacto {
+                top: 350px;
+                width: 83%;
+            }
         }
     }
 }
@@ -179,6 +193,12 @@
             .text {
                 width: 93%;
                 top: 400px;
+            }
+        }
+        &.contacto {
+
+            .section-contacto {
+                width: 67%;
             }
         }
     }

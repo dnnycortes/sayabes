@@ -39,11 +39,6 @@ get_header(); ?>
     <div class="cover contacto">
         <div class="main-width">
             <h2>Contacto</h2>
-            <div class="text">
-                <h3>Equilibrio natural a un paso de la ciudad</h3>
-                <p>Sáyabes está en Bosque Real. A tres minutos de Interlomas rodeado de naturaleza.</p>
-            </div>
-
             <section class="section-contacto" data-paroller-factor="0.9" data-paroller-type="foreground" data-paroller-direction="vertical">
                 <div class="main-width">
                     <p>Envía un mensaje y pronto nos pondremos en contacto:</p>
