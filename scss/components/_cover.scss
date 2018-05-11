@@ -157,7 +157,7 @@
 
 @media screen and (max-width:480px) {
     .cover {
-        &.departamentos, &.galeria {
+        &.departamentos, &.galeria , &.ubicacion {
             h2 {
                 display: none;
             }
@@ -173,6 +173,13 @@
         }
         &.galeria {
             min-height: 550px;
+        }
+        &.ubicacion {
+            min-height: 770px;
+            .text {
+                width: 93%;
+                top: 400px;
+            }
         }
     }
 }
