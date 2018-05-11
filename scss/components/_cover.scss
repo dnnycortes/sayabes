@@ -109,6 +109,9 @@
         &.departamentos {
             min-height: 750px;
         }
+        &.amenidades {
+            background-size: cover;
+        }
     }
 }
 
@@ -129,8 +132,17 @@
         &.departamentos {
             margin-top: 139px;
             min-height: 500px;
+
             .text {
                 top: 120px;
+                width: 96%;
+            }
+        }
+        &.amenidades {
+            margin-top: 139px;
+            min-height: 750px;
+
+            .text {
                 width: 96%;
             }
         }
@@ -138,5 +150,15 @@
 }
 
 @media screen and (max-width:480px) {
-    
+    .cover {
+        &.amenidades {
+            h2 {
+                display: none;
+            }
+            .text {
+                top: 280px;    
+                width: 93%;
+            }
+        }
+    }
 }
