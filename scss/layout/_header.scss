@@ -77,24 +77,13 @@
     }
 }
 
-
-@media screen and (max-width: 768px) {
-    .main-header {
-        h1 {
-            background-size: 100% auto;
-            background-repeat: no-repeat;
-            width: 180px;
-            height: 108px;
-        }
-    }
-}
-
 @media screen and (max-width: 600px) {
     .main-header {
 
         h1 {
-            width: 146px;
-            height: 89px;
+            width: 171px;
+            background-size: 67% auto;
+            height: 110px;
         }
 
         .contact-info {
@@ -106,7 +95,27 @@
         }
 
         .btn-menu {
-            top: 125px;
+            top: 152px;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main-header {
+
+        h1 {
+            width: 150px;
+            background-size: 75% auto;
+
+            a {
+                .log1 {
+                    font-size: 75%;
+                }
+                
+                .log2 {
+                    font-size: 67%;
+                }
+            }
         }
     }
 }
