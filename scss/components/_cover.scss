@@ -95,3 +95,48 @@
         }
     } 
 }
+
+@media screen and (max-width: 1200px) {
+    .cover {
+        &.departamentos {
+            background-size: cover;
+        }
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .cover {
+        &.departamentos {
+            min-height: 750px;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .cover {
+        &.departamentos {
+            min-height: 600px;
+
+            .text {
+                top: 250px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .cover {
+        &.departamentos {
+            margin-top: 139px;
+            min-height: 500px;
+            .text {
+                top: 120px;
+                width: 96%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    
+}

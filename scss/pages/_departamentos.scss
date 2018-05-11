@@ -42,3 +42,16 @@
         }
     }
 }
+
+@media screen and (max-width:480px) {
+    .departamentos {
+        .section-departamentos {
+            .apartment {
+                .type {
+                    width: 100%;
+                    margin-bottom: $margin;
+                }
+            }
+        }
+    }
+}
