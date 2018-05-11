@@ -12,7 +12,6 @@ get_header(); ?>
 		<h1>
 			<a href="<?php bloginfo('url'); ?>">
 				<p class="log1">Ambientes en equilibrio</p>
-				<span></span>
 				<p class="log2">Departamentos en Bosque Real</p>
 			</a>
 		</h1>
