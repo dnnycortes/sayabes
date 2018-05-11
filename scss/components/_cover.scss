@@ -42,6 +42,7 @@
     }
 
     &.departamentos {
+        margin-top: 159px;
         background-image: url('imgs/bg-departamentos.jpg');
 
         .text {
@@ -50,6 +51,7 @@
     }
 
     &.amenidades {
+        margin-top: 159px;
         background-image: url('imgs/bg-amenidades.jpg');
         .text {
             top: 400px;
@@ -77,4 +79,19 @@
             top: 120px;
         }
     }
+
+    &.contacto {
+        background-image: url('imgs/bg-contacto.jpg');
+        min-height: 1432px;
+
+        > h2 {
+            top: 120px;
+        }
+
+        .section-contacto {
+            position: absolute; 
+            top: 400px;
+            width: 86%;
+        }
+    } 
 }

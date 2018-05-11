@@ -10,7 +10,11 @@ get_header(); ?>
 <header class="main-header">
 	<div class="main-width">
 		<h1>
-			<a href="<?php bloginfo('url'); ?>"><?php bloginfo( 'name' ); ?></a>
+			<a href="<?php bloginfo('url'); ?>">
+				<p class="log1">Ambientes en equilibrio</p>
+				<span></span>
+				<p class="log2">Departamentos en Bosque Real</p>
+			</a>
 		</h1>
 		<div class="contact-info">
 			<div class="social-media">
@@ -29,7 +33,7 @@ get_header(); ?>
 
 <nav class="main-nav">
 	<a href="javascript:void(0);" class="btn-close">Cerrar</a>
-	<?php wp_nav_menu(array('theme_location' => 'primary'));?>
+	<div class="main-nav-menu"><?php wp_nav_menu(array('theme_location' => 'primary'));?></div>
 </nav>
 
 <nav class="dots-nav">

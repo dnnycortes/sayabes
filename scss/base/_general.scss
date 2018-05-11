@@ -27,3 +27,11 @@ body{
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
+a {
+	color: white;
+
+	&:hover {
+		color: white;
+	}
+}
